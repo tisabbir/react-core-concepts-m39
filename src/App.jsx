@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./counter";
+import Team from "./team";
 
 function App() {
   const handleClick = () => {
@@ -31,6 +32,7 @@ function App() {
         Add to 5
       </button>
       <Counter> </Counter>
+      <Team></Team>
     </>
   );
 }
